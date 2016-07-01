@@ -23,6 +23,10 @@
 		color: #3385ff;
 	}
 
+	i{
+		padding-right: 10px;
+		padding-left: 10px;
+	}
 	.vdivideleft{
 		border-right: 5px;
 		padding-left: 25px;
