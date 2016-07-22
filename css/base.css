@@ -45,12 +45,10 @@ img {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-bottom:40%;
+    padding-bottom:38%;
 
     text-align: center;
     position: relative;
-
-    
 }
 
 #home h1{

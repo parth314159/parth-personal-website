@@ -25,7 +25,7 @@ $(document).on('click.nav','.navbar-collapse.in',function(e) {
 
  $(function(){
         $(".element").typed({
-            strings: ["Graduate Student", "Application Developer", "Human : No Title"]
+            strings: ["Graduate Student", "Application Developer"]
         });
     });
 
