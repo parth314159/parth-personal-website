@@ -25,12 +25,14 @@ $(document).on('click.nav','.navbar-collapse.in',function(e) {
 
  $(function(){
         $(".element").typed({
-            strings: ["Graduate Student", "Application Developer"]
+            strings: ["a Graduate Student", "an Application Developer"],
+            loop: true,
+            backDelay: 3000
         });
-    });
+  });
 
 
-/*var onResize = function() {
+var onResize = function() {
   $("body").css("padding-top", $(".navbar-fixed-top").height()); //dynamic padding according to navbar
 };
 
@@ -38,4 +40,4 @@ $(window).resize(onResize); // call function on window resize
 
 $(function() {
   onResize(); // call when page is ready after reload
-});*/
+});
